@@ -1,1 +1,29 @@
-body{background-color: rgb(0, 0, 0);}
+:root {
+	--bdfdb-blurple: #3A71C1;								/* #7289DA */
+	--blurple: #3A71C1;										/* #7289DA */
+	--bd-blue: #3A71C1;
+	--bd-blue-hover: #4585D8;
+	--bd-blue-active: #3268B7;
+	
+	--control-brand-foreground: #3A71C1 !important;			/* #A5B3E7 */
+	--brand-experiment: #3A71C1 !important;					/* #5865F2 */
+	
+	--background-primary: #ffffff;
+
+	--background-mentioned: rgba(26, 168, 250, 0.05);		/* rgba(250, 166, 26, 0.05) */
+	--background-mentioned-hover: rgba(250, 166, 26, 0.08);	/* rgba(250, 166, 26, 0.08) */
+	--background-mentioned-border: rgba(250, 166, 26, 1);	/* rgba(250, 166, 26, 1) */
+
+	--text-positive: #43B581;								/* #4FDC7B */
+	--text-warning: #FAA61A;								/* #FAA61A */
+	--text-danger: #F04747;									/* #ED4245 */
+	--info-positive-foreground: #43B581;					/* #3BA55C */
+	--info-positive-background: rgba(67,181,129,0.1);		/* rgba(59,165,92,0.1) */
+	--info-warning-background: rgba(250,166,26,0.1);		/* rgba(250,166,26,0.1) */
+	--info-warning-foreground: #FAA61A;						/* #FAA61A */
+	--info-danger-background: rgba(240,71,71,0.1);			/* rgba(237,66,69,0.1) */
+	--info-danger-foreground: #F04747;						/* #ED4245 */
+	--status-positive-background: #43B581;					/* #3BA55C */
+	--status-warning-background: #FAA61A;					/* #FAA61A */
+	--status-danger-background: #F04747;					/* #ED4245 */
+}
